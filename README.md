@@ -22,19 +22,6 @@ A QR code will be visible underneath each player. This code is the unique ID for
 5. **Community Building:** Start a league and organize matches and tournaments. This will help build a community around the button soccer teams and increase the value of the NFTs.
 6. **Marketplace for Trading:** Develop an online platform or marketplace where owners can trade players and teams. This adds another layer of engagement and could potentially increase the value of the NFTs.
 
-## Player Stats Metadata
-
-The NFT metadata for each player could include:
-
-- **Player Name:** The name of the player.
-- **Team Name:** The name of the team to which the player belongs.
-- **Position:** The player's position in the team.
-- **Skill Level:** The player's skill level, potentially determined by game performance.
-- **Number of Games Played:** The total number of games the player has participated in.
-- **Number of Wins:** The total number of games the player's team has won.
-- **Number of Goals:** The total number of goals the player has scored.
-- **Unique ID:** A unique identifier for the player. This should match the ID on the physical player piece.
-
 ## UX Design Brief for NFT Button Soccer App
 
 ### Overview
@@ -61,11 +48,81 @@ The app should be developed as a mobile app for iOS and Android, with potential 
 
 ## Use Cases for Target Users
 
-1. **Team Owner Views Team and Player Stats:** A team owner opens the app to view their teams and players. They can see each player's stats and track their performance over time. They decide to trade one of their players to improve their team.
-2. **Team Owner Participates in Tournament:** A team owner registers their team for an upcoming tournament. They participate in the tournament by playing matches against other teams. The results of these matches are logged by referees and the team's stats are updated.
-3. **League Organizer Schedules Tournament:** A league organizer schedules a new button soccer tournament. They set the date, time, and rules for the tournament. They then open registrations for teams to participate.
-4. **Referee Logs Match Results:** A referee officiates a button soccer match. After the match, they log the result and the players' stats in the app. These stats are then reflected in the teams' and players' records.
-5. **User Trades Player:** A user decides to trade one of their players. They list the player in the trading marketplace with a set price. Another user sees the player and decides to purchase them. The trade is facilitated by the app using the underlying blockchain technology to transfer the NFT ownership.
+
+### For All Users (General Stats):
+
+1. **Top Players and Teams:** Ranking of players and teams based on performance, popularity, or value.
+2. **Upcoming Matches:** Details of upcoming matches or tournaments.
+3. **Market Trends:** Trends in the marketplace, such as the most traded players, average player value, etc. 
+
+### Team Owner Views Team and Player Stats:
+A team owner opens the app to view their teams and players. They can see each player's stats and track their performance over time. They decide to trade one of their players to improve their team.
+
+#### Player Stats Metadata
+
+The NFT metadata for each player could include:
+
+1. **Player Name:** The name of the player.
+2. **Team Name:** The name of the team to which the player belongs.
+3. **Position:** The player's position in the team.
+4. **Skill Level:** The player's skill level, potentially determined by game performance.
+5. **Number of Games Played:** The total number of games the player has participated in.
+6. **Number of Wins:** The total number of games the player's team has won.
+7. **Number of Goals:** The total number of goals the player has scored.
+8. **Unique ID:** A unique identifier for the player. This should match the ID on the physical player piece.
+9. **Player Growth:** The change in the player's performance over time, indicating their development and potential.
+10. **Team Performance:** The overall performance of the team, such as win-loss ratio, average goals per game, or number of clean sheets.
+11. **Player Value:** The current market value of the player based on their performance and demand in the marketplace.
+
+
+#### Team Stats metadata
+Additional stats that could be offered to different users include:
+
+1. **Team ID:** A unique identifier for the team. This could be a combination of the owner's name/ID and a sequential number (e.g., "johnsmith01").
+2. **Creation Date:** The date the team was formed.
+3. **Owner:** The current owner of the team.
+4. **Current Value:** The current estimated market value of the team based on the collective value of all players and their performance.
+5. **Total Matches:** The total number of matches the team has played.
+6. **Wins/Losses/Draws:** The team's record of wins, losses, and draws.
+7. **Total Goals Scored:** The total number of goals scored by the team.
+8. **Total Goals Conceded:** The total number of goals conceded by the team.
+9. **Clean Sheets:** The number of matches where the team didn't concede any goals.
+10. **Top Scorer:** The player from the team who has scored the most goals.
+11. **Most Valuable Player (MVP):** The player from the team with the highest performance rating.
+12. **Trophies/Achievements:** Any trophies or achievements the team has earned in tournaments or leagues.
+13. **QR Codes:** The individual QR codes of each player in the team.
+14. **Historical Performance Graph:** A graph or chart showing the team's performance over time.
+15. **Team Logo:** A digital representation of the team's logo.
+
+Each of these attributes can provide valuable information about the team and make the Team NFT more interesting and valuable to potential buyers. Please note that the value of certain attributes such as "Current Value," "Wins/Losses/Draws," and "Total Goals Scored" would need to be updated over time to reflect the team's ongoing performance.
+
+### Team Owner Participates in Tournament:
+A team owner registers their team for an upcoming tournament. They participate in the tournament by playing matches against other teams. The results of these matches are logged by referees and the team's stats are updated.
+
+
+### League Organizer Schedules Tournament: 
+A league organizer schedules a new button soccer tournament. They set the date, time, and rules for the tournament. They then open registrations for teams to participate.
+
+1. **Participation Stats:** The number of teams participating in the league or tournament, the number of matches played, etc.
+2. **Audience Engagement:** The number of spectators or viewers for the matches, the level of engagement on social media platforms, etc.
+3. **Tournament Performance:** Overview of each tournament, including the number of matches, goals scored, and audience engagement.
+
+
+### Referee Logs Match Results:
+A referee officiates a button soccer match. After the match, they log the result and the players' stats in the app. These stats are then reflected in the teams' and players' records.
+
+1. **Dispute Stats:** Number of disputes in each match, the nature of disputes, how many were resolved, etc.
+2. **Rule Violations:** Stats related to rule violations by teams or players during the matches.
+3. **Performance Reviews:** Feedback or reviews from teams and league organizers about the referee's performance.
+
+
+### User Trades Player:
+A user decides to trade one of their players. They list the player in the trading marketplace with a set price. Another user sees the player and decides to purchase them. The trade is facilitated by the app using the underlying blockchain technology to transfer the NFT ownership.
+
+
+
+
+
 
 ## UX Design Deliverables
 

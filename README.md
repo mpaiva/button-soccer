@@ -28,11 +28,19 @@ A QR code will be visible underneath each player. This code is the unique ID for
 
 The NFT Button Soccer App aims to provide an engaging and user-friendly platform for team owners, league organizers, and referees to manage their button soccer teams and leagues. The app should allow users to view and manage their teams and players, track player stats, schedule and participate in tournaments, and trade players and teams.
 
-### User Groups
+## User Groups
 
-1. **Team Owners:** These users own one or more button soccer teams. They should be able to view their teams and players, track player stats, participate in tournaments, and trade players and teams.
-2. **League Organizers:** These users organize button soccer leagues and tournaments. They should be able to schedule tournaments, manage team registrations, and track team and player stats.
-3. **Referees:** These users officiate button soccer matches. They should be able to log match results and player stats.
+This app will primarily serve four user groups. These user groups have overlapping but distinct needs and will interact with the app and each other in different ways. Therefore, the app will need to offer tailored experiences for each group. This will involve personalized dashboards, notifications, and functionalities for each user type.
+
+1. **Team Owners:** These are the individuals who own the teams. They will have the capability to manage their team and player rosters, view player stats, participate in tournaments, and potentially trade players or teams. They can also designate a Team Captain for each match.
+
+2. **Team Captains:** These are individuals designated by the Team Owner to lead the team during a match. They have access to their team and player stats to strategize gameplay. In many cases, the Team Captain and Team Owner will be the same individual, but a Team Owner may also designate someone else to be the Team Captain for a match.
+
+3. **League Organizers:** League Organizers administer button soccer leagues and tournaments. They should be able to schedule tournaments, manage team registrations, oversee the league standings and track team and player stats. They may also assign and nominate people to fulfill the role of a Referee, manage any disputes or rule violations.
+
+4. **Referees:** Referees will have the authority to log the outcomes of matches, which will include match results, player stats, and any noteworthy incidents during the game.
+
+These user groups have overlapping but distinct needs and will interact with the app and each other in different ways. Therefore, the app will need to offer tailored experiences for each group. This will involve personalized dashboards, notifications, and functionalities for each user type.
 
 ### Features and Functionality
 
@@ -46,8 +54,8 @@ The NFT Button Soccer App aims to provide an engaging and user-friendly platform
 
 The app should be developed as a mobile app for iOS and Android, with potential for a web version. It should use a blockchain platform that supports NFTs, such as Ethereum, for the NFT functionality. A peer-to-peer architecture could be used for the trading marketplace to enable direct trades between users.
 
-## Use Cases for Target Users
-
+## Key Indicators
+The following information may be useful to track and display to certain user groups:
 
 ### For All Users (General Stats):
 
@@ -94,35 +102,47 @@ Additional stats that could be offered to different users include:
 14. **Historical Performance Graph:** A graph or chart showing the team's performance over time.
 15. **Team Logo:** A digital representation of the team's logo.
 
-Each of these attributes can provide valuable information about the team and make the Team NFT more interesting and valuable to potential buyers. Please note that the value of certain attributes such as "Current Value," "Wins/Losses/Draws," and "Total Goals Scored" would need to be updated over time to reflect the team's ongoing performance.
-
-### Team Owner Participates in Tournament:
-A team owner registers their team for an upcoming tournament. They participate in the tournament by playing matches against other teams. The results of these matches are logged by referees and the team's stats are updated.
-
-
-### League Organizer Schedules Tournament: 
-A league organizer schedules a new button soccer tournament. They set the date, time, and rules for the tournament. They then open registrations for teams to participate.
+#### League Stats
 
 1. **Participation Stats:** The number of teams participating in the league or tournament, the number of matches played, etc.
 2. **Audience Engagement:** The number of spectators or viewers for the matches, the level of engagement on social media platforms, etc.
 3. **Tournament Performance:** Overview of each tournament, including the number of matches, goals scored, and audience engagement.
+4. **Dispute Stats:** Number of disputes in each match, the nature of disputes, how many were resolved, etc.
+5. **Rule Violations:** Stats related to rule violations by teams or players during the matches.
+6. **Performance Reviews:** Feedback or reviews from teams and league organizers about the referee's performance.
 
+Each of these attributes can provide valuable information about the team and make the Team NFT more interesting and valuable to potential buyers. Please note that the value of certain attributes such as "Current Value," "Wins/Losses/Draws," and "Total Goals Scored" would need to be updated over time to reflect the team's ongoing performance.
+
+## Use Cases
+
+### Team Owner Participates in Tournament:
+A team owner registers their team for an upcoming tournament. They participate in the tournament by playing matches against other teams. The results of these matches are logged by referees and the team's stats are updated.
+
+### Team Owner Designates Team Captain:
+A team owner opens the app to view their teams and players. They decide to designate one of the team members or an external person as the Team Captain for an upcoming match. This change is updated in the team's profile.
+
+### Team Captain Views Team and Player Stats:
+A Team Captain opens the app to view the team they are leading and the respective players. They can see each player's stats and use this information to strategize for an upcoming game.
+
+### Team Captain Leads in a Tournament:
+A Team Captain leads their team in an upcoming tournament. They participate in the tournament by playing matches against other teams. The results of these matches are logged by referees and the team's stats are updated.
+
+### Team Owner and Team Captain Discuss Strategy:
+The Team Owner and Team Captain use the app's communication features to discuss the upcoming game and strategy. They review player stats together and decide on the formation and game plan.
+
+### Team Captain Provides Feedback:
+After a match, the Team Captain provides feedback on the team's performance via the app. This could include individual player feedback, which might be useful for the Team Owner and the players for future matches.
+
+### League Organizer Schedules Tournament: 
+A league organizer schedules a new button soccer tournament. They set the date, time, and rules for the tournament. They then open registrations for teams to participate.
 
 ### Referee Logs Match Results:
 A referee officiates a button soccer match. After the match, they log the result and the players' stats in the app. These stats are then reflected in the teams' and players' records.
 
-1. **Dispute Stats:** Number of disputes in each match, the nature of disputes, how many were resolved, etc.
-2. **Rule Violations:** Stats related to rule violations by teams or players during the matches.
-3. **Performance Reviews:** Feedback or reviews from teams and league organizers about the referee's performance.
-
-
 ### User Trades Player:
 A user decides to trade one of their players. They list the player in the trading marketplace with a set price. Another user sees the player and decides to purchase them. The trade is facilitated by the app using the underlying blockchain technology to transfer the NFT ownership.
 
-
-
-
-
+----
 
 ## UX Design Deliverables
 

@@ -171,6 +171,157 @@ A user decides to trade one of their players. They list the player in the tradin
 1. **Design Specification Document:** A detailed document outlining the design and functionality of the app.
 2. **Design Assets:** All the necessary assets such as icons, images and fonts needed for the development of the app.
 
+
+```
+ 
+```
+
+# DELIVERABLES
+
+## User Personas
+
+### User Persona: Team Owner
+
+- Name: Roberto
+- Age: 40
+- Occupation: Business Analyst
+- Bio: Roberto is a first-generation Brazilian-American and a soccer enthusiast. He cherishes the bond he shares with his 10-year-old son through Button Soccer, a sport he grew up with in Brazil. He sees it as a unique opportunity to pass on his love for soccer to his son.
+- Goals: To create meaningful experiences with his son, manage his team efficiently, and make successful trades.
+- Pain Points: Lacks a dedicated platform to track team and player statistics, engage with other team owners, and trade players transparently.
+
+### User Persona: Team Captain
+
+- Name: Marina
+- Age: 12
+- Occupation: Middle School Student
+- Bio: Marina is Roberto's daughter and a fervent soccer player at her school. She was appointed by her father as a Team Captain. She relishes the responsibility and enjoys strategizing for the games.
+- Goals: To lead her team to victory, understand player strengths and weaknesses, and develop effective game strategies.
+- Pain Points: Difficulty in accessing comprehensive team and player stats, and strategizing without a dedicated platform.
+
+### User Persona: League Organizer
+
+- Name: Carlos
+- Age: 45
+- Occupation: Community Soccer Coach
+- Bio: Carlos is an active member of the local Brazilian community and is passionate about promoting Button Soccer. He organizes local tournaments and loves seeing the community coming together through the sport.
+- Goals: To foster community engagement, organize successful tournaments, and ensure seamless registration and communication with team owners and captains.
+- Pain Points: Lacks an efficient way to organize tournaments, communicate updates, and handle registrations.
+
+### User Persona: Referee
+
+- Name: Daniela
+- Age: 50
+- Occupation: Physical Education Teacher
+- Bio: Daniela is a respected figure in the local community and is known for her fair play ethics. She loves refereeing Button Soccer matches and believes in the sport's potential to impart valuable lessons to children.
+- Goals: To ensure fair play, accurately log match results, and update player stats.
+- Pain Points: Lacks a convenient platform for logging match results and player stats, and communicating with team owners, captains, and league organizers.
+
+### User Persona: Player Trader
+
+- Name: Luiz
+- Age: 35
+- Occupation: Financial Analyst
+- Bio: Luiz is a Button Soccer enthusiast who sees the trading aspect of the game as an interesting financial venture. He enjoys analyzing player stats and making calculated trading decisions.
+- Goals: To identify potential player prospects, make profitable trades, and grow his collection.
+- Pain Points: Lacks a secure and transparent platform to analyze player stats, trade player NFTs, and verify chronological ownership.
+
+## User Journey Maps
+
+**Team Owner Participates in Tournament:**
+
+1. User opens the app and navigates to the "Tournaments" section.
+2. User finds an upcoming tournament and selects "Register Team".
+    - Exception: If the registration period has ended, inform the user and suggest future tournaments.
+3. User selects their team from the dropdown list and confirms registration.
+    - Success: User receives a confirmation message of successful registration.
+4. During the tournament, user logs into the app to track match schedules and standings.
+5. After each match, user checks the updated team and player stats.
+    - Success: User can see the updated stats and the team's current position in the tournament standings.
+
+---
+
+**Team Owner Designates Team Captain:**
+
+1. User opens the app and navigates to their team's profile.
+2. User selects "Edit Team" and then "Designate Team Captain".
+3. User selects a team member or inputs the external person's details and confirms the change.
+    - Exception: If the entered details are invalid or incomplete, prompt the user to correct them.
+    - Success: User sees the updated team profile with the new Team Captain's name.
+4. User reviews the updated team profile to ensure the new Team Captain is listed.
+
+---
+
+**Team Captain Views Team and Player Stats:**
+
+1. User opens the app and navigates to their team's profile.
+2. User checks the stats for each player, noting performance trends.
+    - Success: User can see all the relevant stats and form a strategy for the upcoming match.
+
+---
+
+**Team Captain Leads in a Tournament:**
+
+1. User logs into the app and checks the tournament schedule.
+2. During the tournament, user uses the app to track match progress and team standings.
+3. After each match, user checks the updated team and player stats.
+    - Success: User can see the updated stats and use the data for future match strategies.
+
+---
+
+**Team Owner and Team Captain Discuss Strategy:**
+
+1. Both users log into the app and navigate to their team's profile.
+2. They use the in-app chat feature to discuss player stats and game strategy.
+    - Exception: If there are connectivity issues, provide options to retry or check back later.
+    - Success: Both users are able to communicate effectively and finalize their strategy.
+3. They make decisions on team formation and game plan, updating the team profile accordingly.
+
+---
+
+**Team Captain Provides Feedback:**
+
+1. After a match, user logs into the app and navigates to their team's profile.
+2. User selects "Provide Feedback" and enters their observations on the team's performance.
+    - Exception: If the feedback exceeds the character limit, prompt the user to shorten it.
+    - Success: Feedback is successfully submitted and is visible to the Team Owner and players.
+3. User submits feedback for the Team Owner and players to review.
+
+---
+
+**League Organizer Schedules Tournament:**
+
+1. User logs into the app and navigates to the "Organizer Dashboard".
+2. User selects "Schedule Tournament" and inputs the date, time, and rules.
+    - Exception: If any input is invalid, provide the user with an error message and suggest corrections.
+    - Success: The tournament is scheduled and visible to all users.
+3. User confirms the details and opens the registration for teams.
+
+---
+
+**Referee Logs Match Results:**
+
+1. User logs into the app and navigates to the "Referee Dashboard".
+2. User selects the match they officiated and enters the match result and player stats.
+    - Exception: If the user tries to submit incomplete data, prompt them to complete all required fields.
+    - Success: The results are logged, updated in the teams' and players' records, and visible to all relevant users.
+3. User reviews the entered information for accuracy and then submits the update.
+
+---
+
+**User Trades Player:**
+
+1. User logs into the app and navigates to the "Trading Marketplace".
+2. User selects "List Player for Trade" and sets the desired price.
+    - Exception: If the set price is outside an acceptable range, prompt the user to enter a different price.
+    - Success: The player is listed in the marketplace.
+3. Another user views the player listing and agrees to the trade.
+4. The app uses the underlying blockchain technology to facilitate the NFT ownership transfer.
+    - Exception: If there are issues with the blockchain transaction, provide an error message and retry options.
+    - Success: Both users receive confirmation messages about the successful trade.
+
+
+# CASE STUDY 
+
 ## UX Case Study: Designing the NFT Button Soccer App
 
 ### Introduction

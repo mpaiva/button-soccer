@@ -225,6 +225,10 @@ A user decides to trade one of their players. They list the player in the tradin
 - Goals: To identify potential player prospects, make profitable trades, and grow his collection.
 - Pain Points: Lacks a secure and transparent platform to analyze player stats, trade player NFTs, and verify chronological ownership.
 
+```
+ 
+```
+
 ## User Journey Maps
 
 **Team Owner Participates in Tournament:**

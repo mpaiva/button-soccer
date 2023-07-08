@@ -1,8 +1,5 @@
-Sure, here is the complete conversation converted into a markdown file:
-
----
-
 # Project: Button Soccer NFT
+By Marcelo Paiva - July 8, 2023
 
 ## Description
 
